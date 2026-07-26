@@ -36,6 +36,6 @@ function setSliderImg() {
   let activeImg = document.querySelector(
     "section.slider .slider-buttons li.active",
   ).dataset.imgName;
-  sliderImg.style.backgroundImage = `url(../../../imgs/${activeImg}.jpg)`;
+  sliderImg.style.backgroundImage = `url(../imgs/${activeImg}.jpg)`;
 }
 // End slider
