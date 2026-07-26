@@ -1,0 +1,16 @@
+.text-center-sm {
+  @media #{$max-sm} {
+    text-align: center;
+  }
+}
+
+.justify-center-sm {
+  @media #{$max-sm} {
+    justify-content: center;
+  }
+}
+.flex-col-sm {
+  @media #{$max-sm} {
+    flex-direction: column;
+  }
+}

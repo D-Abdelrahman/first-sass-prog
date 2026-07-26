@@ -1,0 +1,11 @@
+header .container {
+  text-align: right;
+}
+
+section.services .row .srv a::after {
+  content: "\f100";
+}
+
+section.players .row .box a::after {
+  content: "\f100";
+}

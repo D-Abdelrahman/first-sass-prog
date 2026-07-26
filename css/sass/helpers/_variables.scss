@@ -1,0 +1,16 @@
+$max-sm: "(max-width: 767px)";
+$min-md: "(min-width: 768px)";
+$max-md: "(max-width: 991.9px)";
+$min-lg: "(min-width: 992px)";
+$max-lg: "(max-width: 1199.9px)";
+$min-xlg: "(min-width: 1200px)";
+
+$redColor: #e2494c;
+$grayColor: #9c9c9c;
+$lang: en;
+
+$textStart: left;
+
+// @if $lang == "ar" {
+//   $textStart: right;
+// }

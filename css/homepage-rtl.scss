@@ -1,0 +1,28 @@
+@import "sass/helpers/variables";
+
+$lang: ar !global;
+$textStart: right;
+
+header {
+  .container {
+    text-align: $textStart;
+  }
+}
+section.services {
+  .row {
+    .srv {
+      a::after {
+        content: "\f100";
+      }
+    }
+  }
+}
+section.players {
+  .row {
+    .box {
+      a::after {
+        content: "\f100";
+      }
+    }
+  }
+}

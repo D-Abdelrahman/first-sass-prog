@@ -1,0 +1,94 @@
+footer {
+  margin-top: 40px;
+  background-color: #e2e2e2;
+  color: $grayColor;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    padding: 40px 0;
+    .latest {
+      @media #{$min-lg} {
+        flex-basis: calc((100% - 60px) / 2);
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin: 20px 0;
+        .img {
+          padding: 5px;
+          width: 112px;
+          height: 112px;
+          border: 1px solid #333;
+        }
+        .text {
+          padding: 5px;
+          h4 {
+            color: $redColor;
+          }
+          p {
+            margin-top: 10px;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+    .info {
+      flex-basis: 100%;
+      @media #{$min-md} {
+        flex-basis: calc((100% - 30px) / 2);
+      }
+      @media #{$min-lg} {
+        flex-basis: calc((100% - 60px) / 4);
+      }
+
+      .box {
+        margin-bottom: 20px;
+        p {
+          margin-bottom: 5px;
+          &.email span {
+            color: $redColor;
+          }
+        }
+        h4 {
+          font-weight: bold;
+        }
+      }
+    }
+    .contact {
+      @media #{$min-md} {
+        flex-basis: calc((100% - 30px) / 2);
+      }
+      @media #{$min-lg} {
+        flex-basis: calc((100% - 60px) / 4);
+      }
+
+      input:not([type="submit"]),
+      textarea {
+        padding: 10px;
+        background-color: white;
+        border: none;
+        outline: none;
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 6px;
+      }
+      textarea {
+        height: 130px;
+      }
+    }
+    div h3 {
+      color: initial;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+  }
+  .end-foot {
+    display: flex;
+    row-gap: 5px;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid white;
+  }
+}
